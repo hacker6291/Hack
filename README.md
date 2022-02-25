@@ -1,66 +1,74 @@
-<h2 align="center"><u>CamHacker</u></h2>
+<h1 align="center">TBomb v2.0</h1>
+<p align="center">An open-source SMS/call bomber for Linux And Termux.</p><br>
 
-![Hack anyone's camera and get images](files/banner.png)
-<h4 align="center"> Hack anyone's camera and get images!</h4>
+## About Tool:
 
-<p align="center">
-    <img src="https://img.shields.io/badge/Version-1.2-blue?style=for-the-badge&color=blue">
-     <img src="https://img.shields.io/github/stars/KasRoudra/CamHacker?style=for-the-badge&color=magenta">
-  <img src="https://img.shields.io/github/forks/KasRoudra/CamHacker?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/CamHacker?color=red&style=for-the-badge">
-    <img src="https://img.shields.io/github/license/KasRoudra/CamHacker?style=for-the-badge&color=blue">
+- The script requires working network connection to work.
+- No balance will be deducted for using this script to send SMS/calls.
+- While doing infinite bombing use 2-3 seconds delay and 10 to 20 threads for maximum performance.
+- Don't put spaces in between phone number (Ex- 99999 99999)
+- Make sure you are using the latest version of TBomb
+- Make sure you are using Python3.
+
+## Features:
+
+- sms bombing
+- call bombing
+- mail bombing
+- whatsapp bombing
+- Frequent updates
+
+## Available On
+- Termux
+- Kali Linux
+- macOS
+
+## Test On:
+- Termux
+- Mi Note 9 pro
+
+## INSTALLATION [Termux] :
+
+* `apt update`
+* `apt upgrade`
+* `pkg install python`
+* `pkg install python2`
+* `pkg install git`
+* `git clone https://github.com/IncredibleHacker/TBomb2.0`
+* `ls`
+* `cd TBomb2.0`
+* `pip2 install requirements.txt`
+* `chmod +x TBomb2.0.sh`
+* `./TBomb.sh Or bash TBomb2.0.sh`
+
+## INSTALLATION [Kali Linux] :
+
+* `sudo apt install python`
+* `sudo apt install python2`
+* `sudo apt install git`
+* `git clone https://github.com/IncredibleHacker/TBomb2.0`
+* `ls`
+* `cd TBomb2.0`
+* `ls`
+* `chmod +x TBomb2.0.sh`
+* `./TBomb.sh Or bash TBomb2.0.sh`
+
+## INSTALLATION macOS:
+
+* `brew install git`
+* `brew install python3`
+* `sudo easy_install pip`
+* `sudo pip install --upgrade pip`
+* `git clone https://github.com/IncredibleHacker/TBomb2.0`
+* `cd TBomb2.0`
+* `chmod +x TBomb2.0.sh`
+* `bash TBomb2.0.sh`
+
+## Screenshot:
 <br>
-    <img src="https://img.shields.io/badge/Author-KasRoudra-green?style=flat-square">
-    <img src="https://img.shields.io/badge/Open%20Source-Yes-orange?style=flat-square">
-    <img src="https://img.shields.io/badge/Maintained-Yes-cyan?style=flat-square">
-    <img src="https://img.shields.io/badge/Written%20In-Shell-blue?style=flat-square">
-</p>
+<p align="center">
+<img width="90%" 
+src="https://github.com/IncredibleHacker/TBomb-2.0/blob/main/master/IMG_20210518_082428.jpg"\>
 
-### [+] Description
-CamHacker is a phishing tool. It will generate a link. If anyone opens the link and permits camera access, his/her photo will be captured and sent to you!
-
-### [+] Installation
-
- - `git clone https://github.com/KasRoudra/CamHacker`
- - `cd CamHacker`
-
-For termux, use additional command `termux-setup-storage`
- - `bash ch.sh`
-
-##### Or Run Directly
-```
-wget https://raw.githubusercontent.com/KasRoudra/CamHacker/main/ch.sh && bash ch.sh
-```
-
-### [+] Features
- - Three Templates
- - Get IP, Location, Device type and Browser
- - Dual Tunneling (Ngrok and Cloudflare)
- - Choose where to save images(custom directory) 
- - Error Diagnoser
- 
-### [+] Preview 
-![Hack anyone's camera and get images](files/ch.gif)
-
-### [+] Depenencies
- - `php`
- - `curl`
- - `wget`
- - `unzip`
-
-All of the necessary depenencies will be installed automatically in first run!
-
-### [+] Note
-You need to use good (not mini version like opera mini) browsers as chrome/brave/mozila to get image captured. Although some browsers can block this CamHacker, however it works in most devices.
-
-### [+] Credits 
-Thanks to <a href="https://github.com/noob-hackers/grabcam">Noob-Hackers</a>, <a href="https://github.com/Techchipnet/camphish">Technochip</a> and <a href="https://github.com/TheLinuxChoice">Linux Choice</a> for their open source codes!
-
-### [+] Disclaimer 
-***This tool is developed for educational purposes. Here it demonstrates how camera phishing works. If anybody wants to gain unauthorized access to someones camera, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of CamHacker!***
-
-### [+] Find me on 
-<a href="mailto:kasroudrakrd@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-kasroudrakrd@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
-
-<a href="https://m.me/KasRoudra" target="_blank"><img src="https://img.shields.io/badge/Messenger-KasRoudra-blue?style=for-the-badge&logo=messenger"></a>
-
+## Warning:
+#### This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases
